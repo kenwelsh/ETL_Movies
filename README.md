@@ -8,7 +8,7 @@ The challenge.ipynb file contains a script that will perform an ETL process on t
 + ratings.csv (sourced from Kaggle)  
 
 
-Assumptions:
+**Assumptions:**
 + The file directory path is currently set to work on my local machine.  You will have to update the path based on your file structure to work on your machine.
 + This assumes that future versions of the three files will be similar in structure and content.
 + Alternate titles are sourced from known alternate title key relationships.  It is possible for additional alternate title key relationships to appear in future version of the wikipedia.movies.json file.
