@@ -12,7 +12,7 @@ Assumptions:
 + The file directory path is currently set to work on my local machine.  You will have to update the path based on your file structure to work on your machine.
 + This assumes that future versions of the three files will be similar in structure and content.
 + Alternate titles are sourced from known alternate title key relationships.  It is possible for additional alternate title key relationships to appear in future version of the wikipedia.movies.json file.
-+ The wikipedia.movies.json file has many labels/column names that are similar.  All currently known similar columns are merged in the script, but future wiki files may contain new column names that will need to be added to the process.
++ The wikipedia.movies.json file has many labels/column names that are similar.  All currently known similar columns are merged in the script, but future Wiki files may contain new column names that will need to be added to the process.
 + Columns in the Wiki data are that have greater than 90% null values are being dropped from the final dataset.  New columns that are not accounted for in later steps of the ETL process could appear with future wiki files if the data becomes more frequently tracked.
 + When merging the wiki data with the Kaggle data, several competing columns were identified.  The following decisions were made:
   + Title: drop Wikipedia column
